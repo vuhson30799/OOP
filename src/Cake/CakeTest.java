@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CakeTest {
     static Scanner scanner= new Scanner (System.in);
 
-    public Cake[] cakes = new Cake[20];
+    private Cake[] cakes = new Cake[20];
     public static int index = 0;
     public Cake makeOrderCake () {
         System.out.println("enter cake's name: ");

@@ -28,10 +28,8 @@ public class MoveablePoint extends Point{
         return arr;
     }
     public MoveablePoint move() {
-        float x = getX();
-        float y = getY();
-        x += xSpeed;
-        y += ySpeed;
+        setX(getX() + xSpeed);
+        setY(getY() + ySpeed);
         return this;
     }
     public String toString () {
